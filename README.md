@@ -4,32 +4,19 @@
 
 # Visualization
 
-<li> </li>
 <li> The Shiny_App_1 and Shiny_App 2 attempt to identify the profile of the shooter and their personal motivation. The profile of the shooter is defined by its age, its sex, its race, if they have military experience and any history of mental illness. </li> 
-  * The first shiny app gives the bar charts of the type of place and the possible motivation by shooter’s profile. The barcharts can either be in group or stacked barmode. </li>
 
-<li> The second shiny app displays at the relationship of the characteristics of the shooter ‘profile </li>
+<li> The first shiny app gives the bar charts of the type of place and the possible motivation by shooter’s profile. The barcharts can either be in group or stacked barmode. </li>
 
-<li> The parallel coodinate plot . we add some noise in order to add some variance and spread the point around each response. The data can be can standardized. </li>
+<li> The second shiny app displays at the relationship of the characteristics of the shooter profile. For each plot, you can select different indicators: Number of Victims or Number of Fatalities.  </li>
 
-<li> The interaction boxplot gives the motivation or the type of place with some characteristics of the shooter’s profile. It can be ordered by values if selected. </li>
+<li> For the parallel coodinate plot, we add some noise in order to add some variance and spread the point around each response. The data can be can standardized on different scales (globalminmax, std, uniminmax). You can hover over the points to view a tooltip showing more detailed information.</li>
 
-<li> The pie chart diplays the Type of Place, the Motivation or Relationship to Incident.</li>
+<li> The interaction boxplot can be ordered by values. You can select the shooter's profile, the characteristic of the mass shooting and the indicator.</li>
 
-<li> </li>
+<li> The pie chart diplays the Type of Place, the Motivation or Relationship to Incident of the selected indicator.</li>
 
-
-
-
-
-<li>The dumbell plots is displayed with a Shiny App. You can choose a sector (Employment, Education, Entrepreneurship) with the radio button. Below, the dropdown menu will filter the categories included in the sector chosen. When choosing a category, the dumbell plot displays the value for the women (red) and men (blue) for each country of the year selected. It automatically orders the countries by decreasing order of the absolute value of the gender inequality gaps and filter for missing values for each year. You can also drag the date slider to view data at different points or click Play to see the date change automatically.</li>
-
-<li>GII dsiplays the Gender Inequality Index from the Human Development Report for a selection of countries using Plotly. You can hover over the points to view a tooltip showing the Year, the Country and the GII value. </li>
-
-<li>GPD_per_Capita_and_Wage_Gap is a shiny app showing the Gender inequalities by level of GPD (Gross Domestic Product) and by gender wage gap percentile. You can choose the level of percentile in the dropdown menu and the income level with the checkbox.</li>
-
-<li>US_gender_wage_gap_by_age dsiplays the ratio of female-to-male median earnings by age in the US using Plotly. You can hover over the points to view a tooltip showing the Year, the Country and the ratio value. </li>
-
+<li> Finally, the scatter plot gives the number of mass shooting in the US over the year for a selected characteristic of the shooter's profile.  You can hover over the points to view a tooltip showing the Date, Location, Total Victims, Profile. </li>
 
 # Conclusions
 
