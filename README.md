@@ -10,13 +10,13 @@
 
 <li> The second shiny app displays at the relationship of the characteristics of the shooter profile. For each plot, you can select different indicators: Number of Victims or Number of Fatalities.  </li>
 
-<li> For the parallel coodinate plot, we add some noise in order to add some variance and spread the point around each response. The data can be can standardized on different scales (globalminmax, std, uniminmax). You can hover over the points to view a tooltip showing more detailed information.</li>
+  <li> For the parallel coodinate plot, we add some noise in order to add some variance and spread the point around each response. The data can be can standardized on different scales (globalminmax, std, uniminmax). You can hover over the points to view a tooltip showing more detailed information.</li>
 
-<li> The interaction boxplot can be ordered by values. You can select the shooter's profile, the characteristic of the mass shooting and the indicator.</li>
+  <li> The interaction boxplot can be ordered by values. You can select the shooter's profile, the characteristic of the mass shooting and the indicator.</li>
 
-<li> The pie chart diplays the Type of Place, the Motivation or Relationship to Incident of the selected indicator.</li>
+  <li> The pie chart diplays the Type of Place, the Motivation or Relationship to Incident of the selected indicator.</li>
 
-<li> Finally, the scatter plot gives the number of mass shooting in the US over the year for a selected characteristic of the shooter's profile.  You can hover over the points to view a tooltip showing the Date, Location, Total Victims, Profile. </li>
+  <li> Finally, the scatter plot gives the number of mass shooting in the US over the year for a selected characteristic of the shooter's profile.  You can hover over the points to view a tooltip showing the Date, Location, Total Victims, Profile. </li>
 
 # Conclusions
 
