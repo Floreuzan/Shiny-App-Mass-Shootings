@@ -1,15 +1,20 @@
 # Data
 
-"Mass Shootings in America" is the focus of the Stanford Mass Shootings of America (MSA) data project that began in 2012, in reaction to the mass shooting in Sandy Hook, CT. The dataset contains a non-exhaustive list of US Mass Shootings from 1966 to 2016. The definition of mass shooting used for the Stanford database is 3 or more shooting victims (not necessarily fatalities), not including the shooter. The shooting must not be identifiable gang, drug, or organized crime related.
-
-The Stanford Libraries Collections contains a dataset called `Mass Shootings in America`, which was collected by the Stanford Geospatial Center from various online media
-
-A sizeable body of evidence suggests that reduction in gender inequality has been stagnant in the United States (e.g. Blau and Kahn 2007). Is this trend US specific, or global? We use data from the OECD, UN, and BLS to examine the trends in various measures of gender inequality.
+`Mass Shootings in America` is the focus of the Stanford Mass Shootings of America (MSA) data project that began in 2012, in reaction to the mass shooting in Sandy Hook, CT. The dataset contains a non-exhaustive list of US Mass Shootings from 1966 to 2016. The definition of mass shooting used for the Stanford database is 3 or more shooting victims (not necessarily fatalities), not including the shooter. The shooting must not be identifiable gang, drug, or organized crime related.
 
 # Visualization
 
 <li> </li>
-<li> The Shiny_App_1 is  </li>
+<li> The Shiny_App_1 and Shiny_App 2 attempt to identify the profile of the shooter and their personal motivation. The profile of the shooter is defined by its age, its sex, its race, if they have military experience and any history of mental illness. 
+<li> The first shiny app gives the bar charts of the type of place and the possible motivation by shooter’s profile. The barmcharts can either be in group or stacked barmode. </li>
+
+<li> The second shiny app gives the bar charts of the type of place and the possible motivation by shooter’s profile. The barmcharts can either be in group or stacked barmode. </li>
+
+</li>
+
+
+
+
 
 <li>The dumbell plots is displayed with a Shiny App. You can choose a sector (Employment, Education, Entrepreneurship) with the radio button. Below, the dropdown menu will filter the categories included in the sector chosen. When choosing a category, the dumbell plot displays the value for the women (red) and men (blue) for each country of the year selected. It automatically orders the countries by decreasing order of the absolute value of the gender inequality gaps and filter for missing values for each year. You can also drag the date slider to view data at different points or click Play to see the date change automatically.</li>
 
