@@ -5,12 +5,18 @@
 # Visualization
 
 <li> </li>
-<li> The Shiny_App_1 and Shiny_App 2 attempt to identify the profile of the shooter and their personal motivation. The profile of the shooter is defined by its age, its sex, its race, if they have military experience and any history of mental illness. 
-<li> The first shiny app gives the bar charts of the type of place and the possible motivation by shooter’s profile. The barmcharts can either be in group or stacked barmode. </li>
+<li> The Shiny_App_1 and Shiny_App 2 attempt to identify the profile of the shooter and their personal motivation. The profile of the shooter is defined by its age, its sex, its race, if they have military experience and any history of mental illness. </li> 
+  * The first shiny app gives the bar charts of the type of place and the possible motivation by shooter’s profile. The barcharts can either be in group or stacked barmode. </li>
 
-<li> The second shiny app gives the bar charts of the type of place and the possible motivation by shooter’s profile. The barmcharts can either be in group or stacked barmode. </li>
+<li> The second shiny app displays at the relationship of the characteristics of the shooter ‘profile </li>
 
-</li>
+<li> The parallel coodinate plot . we add some noise in order to add some variance and spread the point around each response. The data can be can standardized. </li>
+
+<li> The interaction boxplot gives the motivation or the type of place with some characteristics of the shooter’s profile. It can be ordered by values if selected. </li>
+
+<li> The pie chart diplays the Type of Place, the Motivation or Relationship to Incident.</li>
+
+<li> </li>
 
 
 
