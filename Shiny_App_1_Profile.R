@@ -13,6 +13,11 @@ fact_cols = c("School_Related",
 df = df %>% 
   mutate(across(all_of(fact_cols), as.factor))
 
+df$Shooter_Sex <- fct_recode(as.factor(df$Shooter_Sex), "Male" = "0", "Female" = "1", "Unknown" = "2")
+df$Shooter_Race <- fct_recode(as.factor(df$Shooter_Race), "White American" = "0", "Black American" = "1", "Asian American" = "2", "Native American" = "3", "Unknown" = "4")
+df$History_of_Mental_Illness <- fct_recode(as.factor(df$History_of_Mental_Illness), "No" = "0", "Yes" = "1", "Unknown" = "2")
+df$Military_Experience <- fct_recode(as.factor(df$Military_Experience), "No" = "0", "Yes" = "1", "Unknown" = "2")
+
 #### SHINY APP 1 ####
 ui <- fluidPage(
       theme = bslib::bs_theme(
@@ -32,8 +37,7 @@ radioButtons("bar", "Choose a barmode",
       ),
       mainPanel(
         column(5, plotlyOutput(outputId = "p1", width = "700px", height = "400px")),
-        column(7, plotlyOutput(outputId = "p2", width = "700px", height = "400px")),
-        verbatimTextOutput("legend")
+        column(7, plotlyOutput(outputId = "p2", width = "700px", height = "400px"))
       )
       )
     )
@@ -44,16 +48,6 @@ server <- function(input, output, session) {
       category <- input$category
       barmode <- input$bar
       
-    output$legend <- 
-    renderPrint(
-      ifelse(category=="Shooter_Race", return(cat(paste(' Legend \n 0: White American or European American \n 1: Black American or African American \n 2: Asian American \n 3: Native American \n 4: Other or Unknown'))),
-       ifelse(category=="Shooter_Sex", return(cat(paste(' Legend \n 0: Male \n 1: Female \n 2: Unknown'))),
-           ifelse(category=="Military_Experience", return(cat(paste(' Legend \n 0: No \n 1: Yes \n 2: Unknown'))),
-                  ifelse(category=="History_of_Mental_Illness", return(cat(paste(' Legend \n 0: No \n 1: Yes \n 2: Unknown'))),
-                         ifelse(category=="Average_Shooter_Age", return(cat(paste(" The mean of the average shooter's age is 31. \n The range of the shooter's age is [12, 70]."))))) 
-       )))
-      )
-    
   l <- list(
     font = list(
       family = "sans-serif",
