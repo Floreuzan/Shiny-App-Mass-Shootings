@@ -25,3 +25,9 @@
 <li> Semi-Automatic handguns have been involved in mass shootings, and if we ignore spree kills, more people die from semi-automatic handguns - especially in FMS or family murder suicides. </li>
 
 <li> The profile of the murderer is a White Male around 31 years with history of mental illness and with military experience. The main motivation is after a dispute, which mostly occur in a residential area. </li>
+
+* Bullet list
+              * Nested bullet
+                  * Sub-nested bullet etc
+          * Bullet list item 2
+
