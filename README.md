@@ -19,9 +19,9 @@
   * The barchart gives the number of Type of Gun by Semi-Automatic and Non Semi-Automatic Guns. 
   * The line charts displays the Type of Gun Semi-Automatic and Non Semi-Automatic Guns over the years. You can the select a window in the bottom to zoom on a period of time.
   * When hovering over a category over the barchart, the summary statistics for Number of Fatalities from Mass Shooting Events by Gun Types is displayed in the table. You can reset it by double clicking in the barchart. It is server-side linking with shiny and plotly.
-
-
-
+  
+  
+* Finally, we compare the number of incidents and fatalities of Mass Shooting deaths with gun deaths in general and the number of gun laws per state using cloropeths and barplots in plotly.
 
 # Conclusions
 
